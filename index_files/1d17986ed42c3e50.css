@@ -496,12 +496,12 @@ h3 {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 .from-\[\#FE316F\] {
-  --tw-gradient-from: #fe316f;
+  --tw-gradient-from: #2acc18;
   --tw-gradient-stops: var(--tw-gradient-from),
     var(--tw-gradient-to, rgb(254 49 111/0));
 }
 .to-\[\#D220FF\] {
-  --tw-gradient-to: #d220ff;
+  --tw-gradient-to: #fbfe31;
 }
 .p-6 {
   padding: 1.5rem;
@@ -582,7 +582,8 @@ h3 {
 }
 .text-\[\#FE316F\] {
   --tw-text-opacity: 1;
-  color: rgb(254 49 111 / var(--tw-text-opacity));
+  /* color: rgb(254 49 111 / var(--tw-text-opacity)); */
+  color: #71fb46;
 }
 .drop-shadow {
   --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0/0.1))
@@ -665,7 +666,7 @@ h3 {
 }
 .btn-gradient-2 {
   background: linear-gradient(#000, #000) padding-box,
-    linear-gradient(90deg, #fe316f, #6923ff) border-box;
+    linear-gradient(90deg, #47fe31, #f8ff24) border-box;
   border-radius: 10px;
   border: 1px solid transparent;
 }
@@ -673,7 +674,7 @@ h3 {
   filter: drop-shadow(0 4px 19px rgba(254, 49, 111, 0.2));
 }
 .box-shadow {
-  box-shadow: 0 9px 1px -3px #fe316f;
+  box-shadow: 0 9px 1px -3px #47fe31;
 }
 @media (min-width: 640px) {
   .sm\:text-base {
